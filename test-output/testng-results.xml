@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38642" started-at="2020-11-24T14:29:26Z" finished-at="2020-11-24T14:30:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38642" started-at="2020-11-24T14:29:26Z" finished-at="2020-11-24T14:30:04Z">
+      <class name="scripts.TestValidLoginPage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts.TestValidLoginPage@6fc6f14e]" name="setUp" is-config="true" duration-ms="10986" started-at="2020-11-24T14:29:26Z" finished-at="2020-11-24T14:29:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logintitle()[pri:0, instance:scripts.TestValidLoginPage@6fc6f14e]" name="logintitle" duration-ms="27591" started-at="2020-11-24T14:29:37Z" finished-at="2020-11-24T14:30:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintitle -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:scripts.TestValidLoginPage@6fc6f14e]" name="tearDown" is-config="true" duration-ms="7" started-at="2020-11-24T14:30:04Z" finished-at="2020-11-24T14:30:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logintitle status=SUCCESS method=TestValidLoginPage.logintitle()[pri:0, instance:scripts.TestValidLoginPage@6fc6f14e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- scripts.TestValidLoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
